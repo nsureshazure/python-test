@@ -1,0 +1,12 @@
+name: custom pipeline
+on:
+ push:
+  branches:
+    - master
+    
+jobs:
+ build:
+  runs-on: ubuntu-latest
+  steps:
+   name: actions/checkout@v4
+   
